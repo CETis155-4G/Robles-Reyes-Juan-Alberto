@@ -1,0 +1,29 @@
+html{
+    font-size: 10px;/*px quiere decir "pixeles" el tamaño de la fuente base es de ahora 10 pixeles de altura*/
+    font-family:"Open Sans",sans-serif;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+p{
+    font-size: 22px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.HTML{
+    background-color:rgb(255, 255, 255);
+    color:red;
+    text-align: center;
+    font-size: 25px;
+
+}
+img:hover{
+    transform: scale(1.5,1.5);
+    image-orientation:90deg;
+
+}
