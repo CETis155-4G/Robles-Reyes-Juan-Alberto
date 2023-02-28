@@ -1,0 +1,29 @@
+html{
+    font-size: 10px;/*px quiere decir "pixeles" el tamaño de la fuente base es de ahora 10 pixeles de altura*/
+    font-family:"Open Sans",sans-serif;/* esto indica la fuente de la letra */
+}
+h1{
+    font-size: 60px;/*Esto indica el tamaño de letra por el tamaño de pixeles*/
+    text-align: center;/*Esto indica la alineacion del texto, se puede alinear en el centro,izquierda o derecha*/
+    color:rgb(255, 255, 255);/*rgb permite tener una amplia gama de colores, se encuenta aqui para tener colores mas especificos*/
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);/*Border permite agregar bordes en las lineas y resaltar las palabras*/
+}
+p{
+    font-size: 25px;
+    line-height: 2;/*Este es el espacio que hay entre cada linea*/
+    letter-spacing: 1px;/*Este es el espacio de separacion entre cada letra*/
+    color:rgb(0, 0, 0);
+}
+
+.HTML{/*Esta es una clase y permite aplicar los cambios unicamente a la seccion seleccionada*/
+    background-color:white;/*Background color permite colocar un color de fondo en los parrafos*/
+    color:red;/*Color permite escoger un color en especifico por su nombre*/
+    text-align: center;
+    font-size: 25px;
+
+}
+img:hover{
+    transform: scale(1.5,1.5);/*Esta opcion permite reescalar una imagen al pasar el cursor por encima*/
+
+}
