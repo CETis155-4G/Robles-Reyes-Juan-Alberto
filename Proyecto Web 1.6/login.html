@@ -1,0 +1,30 @@
+<!DOCTYPE html><!-- Define el lenguaje-->
+<html lang="en"><!-- Define el idioma-->
+    <head><!-- provee informacion sobre el titulo -->
+        <link href="styles/style.css" rel="stylesheet" type="text/css"><!-- invica el archivo html -->
+        <meta charset="UTF-8">
+        <title>Iniciar sesion</title><!--Este es el titulo de la pagina-->
+
+    </head>
+    <body><!--es la parte visible del texto-->
+        <div class="fond"><!--Define un bloque para ejecutar una clase-->
+        <form action="">
+             <h1>Iniciar Sesion</h1> <!-- etiqueta de titulo dentro de la zona visible-->
+             <h2>Usuario</h2> <!-- etiqueta de subtitulo -->
+            <center><input type="email" id="usuario" placeholder="ejemplo@gmail.com"></center><!-- input se utiliza para crear formularios y type para el tipo de dato-->
+             <h2>Contraseña</h2> 
+             <center><input type="password" id="contraseña" placeholder="Contraseña" maxlength="10"> </center>
+            <br><!-- br da un salto de linea-->
+            <div class="derecha">
+               <a href="contraseña.html" target="_blank">¿Olvidaste la contraseña?</a> <br><!-- a sirve para colocar cun link a otra pagina-->
+               <input type="button" value="Ingresar" class="bot" onclick="location.href='index.html'">
+            </div>
+             
+             <div class="consecutivo">
+                <label>¿Aun no tienes cuenta?</label>
+                <a href="cuestionario.html" target="_blank">Crear cuenta</a> 
+            </div>
+        </div>
+            
+    </body>
+</html>
